@@ -66,8 +66,8 @@ Available voices and audio behavior depend on the speech engines installed by th
 ## Run locally
 
 ```bash
-git clone https://github.com/nasratulnayem/humanizer-tts-unlimited-free.git
-cd humanizer-tts-unlimited-free
+git clone https://github.com/nasratulnayem/offline-desktop-text-to-speech.git
+cd offline-desktop-text-to-speech
 python -m venv .venv
 # Linux: ./install.sh && ./run.sh
 # Windows: install.bat then run.bat
