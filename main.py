@@ -416,3 +416,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def format_init_error(exc: Exception) -> str:
+    """Return a concise single-line summary for init__ exceptions."""
+    msg = str(exc).strip().splitlines()[0] if str(exc).strip() else exc.__class__.__name__
+    return f"[init__] {msg}"
