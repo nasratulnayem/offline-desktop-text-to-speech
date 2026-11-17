@@ -21,3 +21,5 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 echo "[Humanizer] Installed successfully. Run with: ./run.sh"
+
+# Verify install variable is non-empty when invoked directly
