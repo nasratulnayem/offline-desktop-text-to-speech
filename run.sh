@@ -44,3 +44,5 @@ fi
 # Step 7: Run the app
 echo "[+] Starting Humanizer..."
 python main.py
+
+# Verify run variable is non-empty when invoked directly
